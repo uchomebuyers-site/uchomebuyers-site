@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upper Cumberland Home Buyers</title>
+<meta name="description" content="We buy homes in the Upper Cumberland area. Reach out to us at offers@uchomebuyers.com.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal:   #1a5c62;
+    --teal-d: #06363a;
+    --gold:   #b08a3e;
+    --cream:  #f9eadf;
+    --paper:  #fffaf4;
+    --muted:  #4a5654;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--paper);
+    color: var(--teal-d);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Nav */
+  header {
+    padding: 24px 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(6,54,58,0.08);
+  }
+
+  header img {
+    height: 44px;
+    width: auto;
+  }
+
+  /* Hero — full viewport centered */
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 32px;
+  }
+
+  .logo-large {
+    width: clamp(120px, 18vw, 180px);
+    height: auto;
+    margin-bottom: 40px;
+    opacity: 0.92;
+  }
+
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(34px, 5.5vw, 58px);
+    font-weight: 600;
+    color: var(--teal-d);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    max-width: 680px;
+    margin-bottom: 20px;
+  }
+
+  .sub {
+    font-size: clamp(15px, 2vw, 18px);
+    color: var(--muted);
+    max-width: 460px;
+    line-height: 1.65;
+    margin-bottom: 40px;
+  }
+
+  .divider {
+    width: 48px;
+    height: 2px;
+    background: var(--gold);
+    margin: 0 auto 40px;
+  }
+
+  .email-link {
+    display: inline-block;
+    background: var(--teal-d);
+    color: var(--paper);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 34px;
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+    transition: background 0.18s ease, transform 0.18s ease;
+  }
+
+  .email-link:hover {
+    background: var(--teal);
+    transform: translateY(-1px);
+  }
+
+  .email-hint {
+    font-size: 13px;
+    color: #8a9591;
+    margin-top: 14px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 28px 32px;
+    font-size: 13px;
+    color: #94a09b;
+    border-top: 1px solid rgba(6,54,58,0.07);
+  }
+
+  footer a {
+    color: var(--teal);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 480px) {
+    header { padding: 18px 24px; }
+    main { padding: 56px 24px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Upper Cumberland Home Buyers">
+</header>
+
+<main>
+  <img src="logo.png" alt="" class="logo-large">
+  <h1>We buy homes in the Upper Cumberland.</h1>
+  <div class="divider"></div>
+  <p class="sub">Serving Putnam, White, and Cumberland counties. Reach out and tell us about your property.</p>
+  <a href="mailto:offers@uchomebuyers.com" class="email-link">offers@uchomebuyers.com</a>
+  <p class="email-hint">We typically respond within one business day.</p>
+</main>
+
+<footer>
+  &copy; 2026 Upper Cumberland Home Buyers &nbsp;&middot;&nbsp;
+  <a href="privacy.html">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
